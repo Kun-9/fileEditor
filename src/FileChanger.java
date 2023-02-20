@@ -53,8 +53,8 @@ public class FileChanger {
 
 		for (File f : filesNames) {
 			String fileName = f.getName();
-			String extention = fileName.split("\\.")[1];
-			if (!extention.equals("pdf")) {
+			String extension = fileName.split("\\.")[1];
+			if (!extension.equals("pdf")) {
 				continue;
 			}
 
